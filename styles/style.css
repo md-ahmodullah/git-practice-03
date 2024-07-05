@@ -14,7 +14,7 @@
 }
 
 
-li{
+.navbar > li{
     display: inline;
     color: rgb(248, 244, 240);
     border-right: 1px solid antiquewhite;
@@ -31,9 +31,74 @@ li{
 
 .header{
     text-align: center;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.header p{
+    margin-bottom: 15px;
 }
 
 .header-image{
     width: 50%;
     height: 400px;
+}
+
+.blog{
+    display: flex;
+    margin: 10px;
+}
+
+.post{
+    background-color: teal;
+    margin: 0px 8px;
+    padding: 10px;
+    color: aliceblue;
+    border: 1px solid teal;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.post > h2{
+    margin-bottom: 8px;
+}
+
+.post > p{
+    margin-bottom: 10px;
+    text-align: justify;
+    color: antiquewhite;
+}
+
+.btn{
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.footerlink{
+    text-align: center;
+    margin: 40px;
+}
+
+.social > li{
+    display: inline-block;
+    background-color: rgba(58, 208, 208, 0.488);
+    border: 1px solid rgba(32, 167, 167, 0.488);
+    margin: 15px 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: teal;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(243, 229, 211);
 }
