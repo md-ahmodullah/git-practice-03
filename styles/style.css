@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+.navsection{
+    background-color: teal;
+    margin: 10px;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+
+li{
+    display: inline;
+    color: rgb(248, 244, 240);
+    border-right: 1px solid antiquewhite;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+.navbar{
+    padding: 5px;
+    margin-left: 40px;
+    
+}
+
+.header{
+    text-align: center;
+}
+
+.header-image{
+    width: 50%;
+    height: 400px;
+}
